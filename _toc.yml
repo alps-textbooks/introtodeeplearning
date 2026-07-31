@@ -1,0 +1,24 @@
+# Synthesized table of contents for import into ALPS.
+# The upstream repository is a notebook collection with no Jupyter Book TOC;
+# this file gives it a book structure without altering any lesson content.
+
+format: jb-book
+root: README
+parts:
+  - caption: "Lab 1: Intro to Deep Learning"
+    chapters:
+      - file: lab1/README
+      - file: lab1/PT_Part1_Intro
+      - file: lab1/PT_Part2_Music_Generation
+      - file: lab1/TF_Part1_Intro
+      - file: lab1/TF_Part2_Music_Generation
+  - caption: "Lab 2: Computer Vision"
+    chapters:
+      - file: lab2/PT_Part1_MNIST
+      - file: lab2/PT_Part2_Debiasing
+      - file: lab2/TF_Part1_MNIST
+      - file: lab2/TF_Part2_Debiasing
+  - caption: "Lab 3: Large Language Models"
+    chapters:
+      - file: lab3/README
+      - file: lab3/LLM_Finetuning

@@ -1,6 +1,10 @@
 # Synthesized table of contents for import into ALPS.
 # The upstream repository is a notebook collection with no Jupyter Book TOC;
 # this file gives it a book structure without altering any lesson content.
+# Chapter titles come from each notebook's own Part heading: the notebooks all
+# open with the same "Copyright Information" cell, which would otherwise name
+# every chapter. The framework is added where the PyTorch and TensorFlow versions
+# would share a title.
 
 format: jb-book
 root: README
@@ -9,16 +13,29 @@ parts:
     chapters:
       - file: lab1/README
       - file: lab1/PT_Part1_Intro
+        title: "Part 1: Intro to PyTorch"
       - file: lab1/PT_Part2_Music_Generation
+        title: "Part 2: Music Generation with RNNs (PyTorch)"
       - file: lab1/TF_Part1_Intro
+        title: "Part 1: Intro to TensorFlow"
       - file: lab1/TF_Part2_Music_Generation
+        title: "Part 2: Music Generation with RNNs (TensorFlow)"
   - caption: "Lab 2: Computer Vision"
     chapters:
       - file: lab2/PT_Part1_MNIST
+        title: "Part 1: MNIST Digit Classification (PyTorch)"
       - file: lab2/PT_Part2_Debiasing
+        title: "Part 2: Debiasing Facial Detection Systems (PyTorch)"
       - file: lab2/TF_Part1_MNIST
+        title: "Part 1: MNIST Digit Classification (TensorFlow)"
       - file: lab2/TF_Part2_Debiasing
+        title: "Part 2: Debiasing Facial Detection Systems (TensorFlow)"
   - caption: "Lab 3: Large Language Models"
     chapters:
       - file: lab3/README
       - file: lab3/LLM_Finetuning
+        title: "Part 1: Fine-tuning an LLM for Style"
+  - caption: "Back Matter"
+    chapters:
+      - file: about-this-book
+        title: "About This Book"
